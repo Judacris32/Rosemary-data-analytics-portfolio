@@ -42,164 +42,107 @@
 
     <!-- Sticky Navigation Navbar Header Layer -->
     <header
-      id="sticky-navbar"
-      class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-transparent py-5"
+    id="sticky-navbar"
+    class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-transparent py-5"
     >
-      <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <!-- <a href="#" class="heading-font text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                <span class="bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 text-transparent bg-clip-text">ROSEMARY</span>
-                <span class="text-xs px-2 py-0.5 bg-slate-800 text-teal-400 border border-teal-500/30 rounded-full font-mono">ANALYTICS</span>
-            </a> -->
-
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        
         <a
-          href="#"
-          class="heading-font text-xl font-bold tracking-tight text-white flex items-center gap-3"
+        href="#"
+        class="heading-font text-xl font-bold tracking-tight text-white flex items-center gap-3"
         >
-          <!-- Quantum Delta SVG Logo Element -->
-          <svg
+        <svg
             class="w-8 h-8"
             viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-          >
-            <!-- Structural Left Slope (Slate Grey) -->
+        >
             <path d="M50 15L15 75H40L60 40L50 15Z" fill="url(#slateGradient)" />
-            <!-- Ascending Trendline Slice (Amber Gold) -->
             <path d="M35 85L85 25H70L20 85H35Z" fill="url(#goldGradient)" />
-            <!-- Data Node / Peak Accent -->
             <circle cx="85" cy="25" r="5" fill="#fbbf24" />
 
-            <!-- Premium Gradients Definition -->
             <defs>
-              <linearGradient
+            <linearGradient
                 id="slateGradient"
                 x1="15"
                 y1="75"
                 x2="50"
                 y2="15"
                 gradientUnits="userSpaceOnUse"
-              >
+            >
                 <stop offset="0%" stop-color="#475569" />
                 <stop offset="100%" stop-color="#94a3b8" />
-              </linearGradient>
-              <linearGradient
+            </linearGradient>
+            <linearGradient
                 id="goldGradient"
                 x1="20"
                 y1="85"
                 x2="85"
                 y2="25"
                 gradientUnits="userSpaceOnUse"
-              >
+            >
                 <stop offset="0%" stop-color="#d97706" />
                 <stop offset="100%" stop-color="#fbbf24" />
-              </linearGradient>
+            </linearGradient>
             </defs>
-          </svg>
+        </svg>
 
-          <!-- Branding Text Hierarchy -->
-          <div class="flex flex-col">
-            <span
-              class="bg-gradient-to-r from-amber-400 to-slate-400 text-transparent bg-clip-text font-extrabold tracking-wider text-lg leading-none"
-              >ROSEMARY</span
-            >
-            <span
-              class="text-[9px] tracking-[0.25em] text-slate-500 font-mono mt-1 font-bold"
-              >DATA ANALYTICS</span
-            >
-          </div>
+        <div class="flex flex-col">
+            <span class="bg-gradient-to-r from-amber-400 to-slate-400 text-transparent bg-clip-text font-extrabold tracking-wider text-lg leading-none">ROSEMARY</span>
+            <span class="text-[9px] tracking-[0.25em] text-slate-500 font-mono mt-1 font-bold">DATA ANALYTICS</span>
+        </div>
         </a>
 
-        <!-- Desktop Menu -->
-        <nav
-          class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400"
-        >
-          <a href="#skills" class="hover:text-white transition-colors"
-            >Skills</a
-          >
-          <a href="#frameworks" class="hover:text-white transition-colors"
-            >Competencies</a
-          >
-          <a href="#experience" class="hover:text-white transition-colors"
-            >Experience</a
-          >
-          <a href="#awards" class="hover:text-white transition-colors"
-            >Honors</a
-          >
-          <a href="#projects" class="hover:text-white transition-colors"
-            >Projects</a
-          >
-          <a href="#education" class="hover:text-white transition-colors"
-            >Education</a
-          >
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
+        <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+        <a href="#tools" class="hover:text-white transition-colors">Competencies</a>
+        <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+        <a href="#awards" class="hover:text-white transition-colors">Awards</a>
+        <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+        <a href="#education" class="hover:text-white transition-colors">Education</a>
         </nav>
 
         <div class="hidden md:block">
-  <a
-    href="mailto:rossyohenlen@gmail.com"
-    class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs tracking-wide uppercase transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-400/20 hover:-translate-y-0.5 group"
-  >
-    <span>Email Agent</span>
-    <i class="fa-solid fa-envelope text-xs transition-transform duration-300 group-hover:scale-110"></i>
-  </a>
-</div>
-
-        <!-- Mobile Menu Toggle Button Trigger -->
-        <button
-          id="menu-toggle-btn"
-          class="md:hidden text-slate-400 hover:text-white focus:outline-none z-50 p-2"
-          aria-label="Toggle Navigation Menu"
-        >
-          <i
-            class="fa-solid fa-bars text-xl transition-transform duration-300"
-            id="menu-icon"
-          ></i>
-        </button>
-      </div>
-
-      <!-- Fully Animated Mobile Overlay Drawer -->
-      <div
-        id="mobile-menu-overlay"
-        class="fixed inset-0 bg-[#050508]/98 z-40 hidden flex-col justify-center items-center gap-8 text-center backdrop-blur-lg"
-      >
-        <nav class="flex flex-col gap-6 text-xl font-semibold heading-font">
-          <a
-            href="#skills"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Skills & Expertise</a
-          >
-          <a
-            href="#frameworks"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Core Competencies</a
-          >
-          <a
-            href="#experience"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Experience Matrix</a
-          >
-          <a
-            href="#awards"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Awards & Honors</a
-          >
-          <a
-            href="#projects"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Deep-Dive Projects</a
-          >
-          <a
-            href="#education"
-            class="mobile-nav-link text-slate-400 hover:text-white transition-colors"
-            >Education</a
-          >
-        </nav>
         <a
-          href="mailto:rossyohenlen@gmail.com"
-          class="mobile-nav-link px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-slate-950 font-bold hover:scale-105 transition-transform mt-4"
+            href="mailto:rossyohenlen@gmail.com"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold text-xs tracking-wide uppercase transition-all duration-300 shadow-lg shadow-amber-500/10 hover:shadow-amber-400/20 hover:-translate-y-0.5 group"
         >
-          Get In Touch
+            <span>Get In Touch</span>
+            <i class="fa-solid fa-envelope text-xs transition-transform duration-300 group-hover:scale-110"></i>
         </a>
-      </div>
+        </div>
+
+        <button
+        id="menu-toggle-btn"
+        class="md:hidden text-slate-400 hover:text-white focus:outline-none z-[1000] p-2 relative"
+        aria-label="Toggle Navigation Menu"
+        >
+        <i
+            class="fa-solid fa-bars text-xl transition-all duration-300 transform"
+            id="menu-icon"
+        ></i>
+        </button>
+        
+    </div> <div
+        id="mobile-menu-overlay"
+        class="fixed inset-0 h-screen w-screen bg-[#050508]/98 z-[999] hidden flex-col justify-center items-center gap-8 text-center backdrop-blur-xl"
+    >
+        <nav class="flex flex-col gap-6 text-xl font-semibold heading-font">
+        <a href="#skills" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Skills</a>
+        <a href="#tools" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Core Competencies</a>
+        <a href="#experience" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Experience</a>
+        <a href="#awards" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Awards</a>
+        <a href="#projects" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Projects</a>
+        <a href="#education" class="mobile-nav-link text-slate-400 hover:text-white transition-colors">Education</a>
+        </nav>
+        
+        <a
+        href="mailto:rossyohenlen@gmail.com"
+        class="mobile-nav-link px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold hover:scale-105 transition-all shadow-lg shadow-amber-500/20 mt-4"
+        >
+        Get In Touch
+        </a>
+    </div>
     </header>
 
     <!-- Hero Showcase Section Components -->
@@ -398,7 +341,7 @@
         <h2
           class="heading-font text-3xl sm:text-4xl font-bold text-white tracking-tight mt-2"
         >
-          Skills & Expertise Matrix
+          Skills & Expertise
         </h2>
         <p class="text-slate-400 mt-2 text-sm sm:text-base max-w-2xl">
           Core technologies and frameworks configured to manage enterprise

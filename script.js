@@ -28,29 +28,47 @@ document.addEventListener('DOMContentLoaded', () => {
         const isMenuOpen = mobileMenuOverlay.classList.contains('flex');
         
         if (!isMenuOpen) {
+            // Open Menu Overlay Container Layer
             mobileMenuOverlay.classList.remove('hidden');
             mobileMenuOverlay.classList.add('flex');
+            
+            // Prevent Background Scrolling Content Shifts
             document.body.classList.add('overflow-hidden');
+            
+            // Convert Menu Toggle Vector Icon to Close State Cross Accent
             menuIcon.classList.remove('fa-bars');
             menuIcon.classList.add('fa-xmark');
         } else {
+            // Close Menu Overlay Container Layer
             mobileMenuOverlay.classList.remove('flex');
             mobileMenuOverlay.classList.add('hidden');
+            
+            // Restore Global Screen Scrolling Track Focus
             document.body.classList.remove('overflow-hidden');
+            
+            // Convert Toggle Icon state element back to default Hamburger bars
             menuIcon.classList.remove('fa-xmark');
             menuIcon.classList.add('fa-bars');
         }
     }
 
-    menuToggleBtn.addEventListener('click', toggleMobileMenu);
-
-    mobileNavLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (mobileMenuOverlay.classList.contains('flex')) {
-                toggleMobileMenu();
-            }
+    // Safety checks before mounting Event Handlers 
+    if (menuToggleBtn && mobileMenuOverlay && menuIcon) {
+        // Handle Trigger Interaction clicks
+        menuToggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleMobileMenu();
         });
-    });
+
+        // Loop and attach automatic close events on anchor section target redirection
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (mobileMenuOverlay.classList.contains('flex')) {
+                    toggleMobileMenu();
+                }
+            });
+        });
+    }
 
     // --- 3. Viewport Scroll Fade-In Animations ---
     const revealElements = document.querySelectorAll('.reveal-element');
