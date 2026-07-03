@@ -1,0 +1,302 @@
+<!-- Section 1: Technical Skills & Tools Matrix Layout -->
+    <section id="skills" class="py-24 px-6 max-w-7xl mx-auto reveal-element">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="heading-font text-3xl sm:text-4xl font-bold text-white tracking-tight">Skills & Technical Expertise</h2>
+            <p class="text-slate-400 mt-3 text-sm sm:text-base">Categorized data processing frameworks deployed to extract structured corporate indicators[cite: 2].</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Skill Box 1 -->
+            <div class="p-6 rounded-2xl glass-premium-card border border-slate-800/80 hover:border-cyan-500/30 transition-all duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fa-solid fa-database text-xl"></i>
+                </div>
+                <h3 class="heading-font text-lg font-bold text-white mb-3">Database Architecture</h3>
+                <ul class="space-y-2 text-xs text-slate-400">
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-1.5"></i> SQL (PostgreSQL, MySQL)[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-1.5"></i> Schema Relationship Design[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-cyan-400 mr-1.5"></i> Structural Normalization[cite: 2]</li>
+                </ul>
+            </div>
+            <!-- Skill Box 2 -->
+            <div class="p-6 rounded-2xl glass-premium-card border border-slate-800/80 hover:border-teal-500/30 transition-all duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fa-solid fa-chart-line text-xl"></i>
+                </div>
+                <h3 class="heading-font text-lg font-bold text-white mb-3">Statistical Computing</h3>
+                <ul class="space-y-2 text-xs text-slate-400">
+                    <li><i class="fa-solid fa-check text-teal-400 mr-1.5"></i> Python (Pandas, NumPy)[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-teal-400 mr-1.5"></i> Exploratory Modeling (EDA)[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-teal-400 mr-1.5"></i> Matplotlib & Seaborn Logic[cite: 2]</li>
+                </ul>
+            </div>
+            <!-- Skill Box 3 -->
+            <div class="p-6 rounded-2xl glass-premium-card border border-slate-800/80 hover:border-emerald-500/30 transition-all duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fa-solid fa-chart-pie text-xl"></i>
+                </div>
+                <h3 class="heading-font text-lg font-bold text-white mb-3">Business Intelligence</h3>
+                <ul class="space-y-2 text-xs text-slate-400">
+                    <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Power BI / Tableau Deployments[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Google Looker Studio Systems[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> Dynamic Metric Visualization[cite: 2]</li>
+                </ul>
+            </div>
+            <!-- Skill Box 4 -->
+            <div class="p-6 rounded-2xl glass-premium-card border border-slate-800/80 hover:border-indigo-500/30 transition-all duration-300 group">
+                <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-5 group-hover:scale-110 transition-transform duration-300">
+                    <i class="fa-solid fa-sliders text-xl"></i>
+                </div>
+                <h3 class="heading-font text-lg font-bold text-white mb-3">Growth Analytics</h3>
+                <ul class="space-y-2 text-xs text-slate-400">
+                    <li><i class="fa-solid fa-check text-indigo-400 mr-1.5"></i> Google Analytics 4 (GA4)[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-indigo-400 mr-1.5"></i> Attribution & Funnels Modeling[cite: 2]</li>
+                    <li><i class="fa-solid fa-check text-indigo-400 mr-1.5"></i> Enterprise Data Tracking[cite: 2]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Core Methodologies & Competencies -->
+    <section id="frameworks" class="py-20 bg-slate-950/60 border-y border-slate-900 px-6 reveal-element">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+            <div>
+                <h2 class="heading-font text-3xl font-bold text-white tracking-tight">Core Competencies & Frameworks</h2>
+                <p class="text-slate-400 mt-4 text-sm leading-relaxed">
+                    Structuring analytic projects goes beyond writing raw script commands. I integrate modern framework design structures into enterprise business models to assure optimal project governance and visibility[cite: 2].
+                </p>
+            </div>
+            <div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="flex gap-4 p-5 rounded-xl bg-slate-900/30 border border-slate-800/50">
+                    <span class="text-2xl text-cyan-400 mt-1"><i class="fa-solid fa-layer-group"></i></span>
+                    <div>
+                        <h4 class="heading-font font-bold text-white text-base">Agile & Scrum Optimization</h4>
+                        <p class="text-slate-400 text-xs mt-1 leading-relaxed">Executing flexible data development cycles utilizing adaptive milestones and synchronized stand-ups[cite: 2].</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-5 rounded-xl bg-slate-900/30 border border-slate-800/50">
+                    <span class="text-2xl text-teal-400 mt-1"><i class="fa-solid fa-filter"></i></span>
+                    <div>
+                        <h4 class="heading-font font-bold text-white text-base">ETL Pipeline Frameworks</h4>
+                        <p class="text-slate-400 text-xs mt-1 leading-relaxed">Designing clear data cleaning, normalization, and verification workflows across distinct datasets[cite: 2].</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-5 rounded-xl bg-slate-900/30 border border-slate-800/50">
+                    <span class="text-2xl text-emerald-400 mt-1"><i class="fa-solid fa-file-shield"></i></span>
+                    <div>
+                        <h4 class="heading-font font-bold text-white text-base">Data Governance Protocols</h4>
+                        <p class="text-slate-400 text-xs mt-1 leading-relaxed">Enforcing strict data standard protocols to ensure structural data integrity across all reporting structures[cite: 2].</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 p-5 rounded-xl bg-slate-900/30 border border-slate-800/50">
+                    <span class="text-2xl text-indigo-400 mt-1"><i class="fa-solid fa-comments"></i></span>
+                    <div>
+                        <h4 class="heading-font font-bold text-white text-base">Executive Asset Presentation</h4>
+                        <p class="text-slate-400 text-xs mt-1 leading-relaxed">Translating highly intricate backend metric variances into clear actionable documentation for stakeholders[cite: 2].</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Deep Experience Matrix Timeline -->
+    <section id="experience" class="py-24 px-6 max-w-5xl mx-auto reveal-element">
+        <div class="text-center mb-16">
+            <h2 class="heading-font text-3xl sm:text-4xl font-bold text-white tracking-tight">Enterprise Experience Matrix</h2>
+            <p class="text-slate-400 mt-3 text-sm">Chronological outline of data analyst and resource tracking consulting mandates across international domains[cite: 2].</p>
+        </div>
+        
+        <div class="relative border-l-2 border-slate-800/80 pl-6 sm:pl-10 space-y-12">
+            <!-- Job Element 1 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] sm:-left-[47px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-cyan-400 group-hover:bg-cyan-400 transition-colors duration-300"></div>
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <div>
+                        <h3 class="heading-font text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Senior Data & Performance Analytics Consultant (Contract)</h3>
+                        <p class="text-teal-400 font-medium text-sm">Rashiabi / Alexphrony Ltd | London, United Kingdom (Remote)</p>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 bg-slate-900/60 border border-slate-800 px-2 py-1 rounded-md self-start sm:self-center">Jan 2024 - Present[cite: 2]</span>
+                </div>
+                <ul class="space-y-2 text-xs sm:text-sm text-slate-400 leading-relaxed list-disc list-inside">
+                    <li class="pl-1">Architected automated data extraction pipelines using Python scripts to aggregate cross-channel marketing data and e-commerce transactional logs into unified SQL databases[cite: 2].</li>
+                    <li class="pl-1">Engineered comprehensive customer conversion and drop-off matrices utilizing Google Analytics 4 (GA4), isolating behavioral bottlenecks to optimize checkout flows[cite: 2].</li>
+                    <li class="pl-1">Built and deployed interactive dynamic dashboards in Google Looker Studio, visualizing live-updating Customer Acquisition Cost (CAC), Customer Lifetime Value (LTV), and multi-channel attribution metrics for executive review[cite: 2].</li>
+                </ul>
+            </div>
+
+            <!-- Job Element 2 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] sm:-left-[47px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-teal-400 group-hover:bg-teal-400 transition-colors duration-300"></div>
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <div>
+                        <h3 class="heading-font text-xl font-bold text-white group-hover:text-teal-400 transition-colors">Operational Data Analyst (Contract)</h3>
+                        <p class="text-teal-400 font-medium text-sm">Apex Infrastructure & Project Management Group | Hull, United Kingdom</p>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 bg-slate-900/60 border border-slate-800 px-2 py-1 rounded-md self-start sm:self-center">Sep 2023 - Jan 2024[cite: 2]</span>
+                </div>
+                <ul class="space-y-2 text-xs sm:text-sm text-slate-400 leading-relaxed list-disc list-inside">
+                    <li class="pl-1">Designed relational SQL database tables to monitor equipment utilization, inventory lifecycles, and cross-departmental milestone progress schedules[cite: 2].</li>
+                    <li class="pl-1">Developed predictive asset deployment models using Advanced Excel macros to flag historical project lag sources, proactively decreasing project latency[cite: 2].</li>
+                    <li class="pl-1">Created structured corporate ETL workflows, converting unstructured, fragmented on-site operations logs into clean, standardized datasets suitable for executive auditing[cite: 2].</li>
+                </ul>
+            </div>
+
+            <!-- Job Element 3 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] sm:-left-[47px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-emerald-400 group-hover:bg-emerald-400 transition-colors duration-300"></div>
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <div>
+                        <h3 class="heading-font text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">Freelance Data Analytics Consultant</h3>
+                        <p class="text-teal-400 font-medium text-sm">Self-Employed / Remote Tech Consultancies | Global / Remote</p>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 bg-slate-900/60 border border-slate-800 px-2 py-1 rounded-md self-start sm:self-center">Mar 2021 - Aug 2023</span>
+                </div>
+                <ul class="space-y-2 text-xs sm:text-sm text-slate-400 leading-relaxed list-disc list-inside">
+                    <li class="pl-1">Cleaned, processed, and evaluated customer behavior datasets for mid-sized retail and tech startups, identifying core purchasing demographics and operational inefficiencies.</li>
+                    <li class="pl-1">Built customized Power BI and Tableau dashboards for small business owners, providing them with clear visibility into their inventory and seasonal sales trends.</li>
+                    <li class="pl-1">Set up structured web tracking configurations using Google Tag Manager and Google Analytics, providing clients with data-driven content strategies that expanded organic reach[cite: 2].</li>
+                </ul>
+            </div>
+
+            <!-- Job Element 4 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] sm:-left-[47px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-indigo-400 group-hover:bg-indigo-400 transition-colors duration-300"></div>
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <div>
+                        <h3 class="heading-font text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">Lead Systems & Optimization Analyst (Contract)</h3>
+                        <p class="text-teal-400 font-medium text-sm">Vanguard Digital Tech Solutions | Lagos, Nigeria</p>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 bg-slate-900/60 border border-slate-800 px-2 py-1 rounded-md self-start sm:self-center">Mar 2021 - Jul 2022</span>
+                </div>
+                <ul class="space-y-2 text-xs sm:text-sm text-slate-400 leading-relaxed list-disc list-inside">
+                    <li class="pl-1">Spearheaded data cleanup and transformation tasks for regional enterprise service frameworks, unifying siloed audience datasets into optimized relational databases.</li>
+                    <li class="pl-1">Configured diagnostic performance matrices that tracked data accuracy and system throughput across localized transaction pipelines, drastically reducing reporting latency.</li>
+                    <li class="pl-1">Synthesized intricate analytics data into clean business intelligence summaries, advising C-suite executives on strategic infrastructural pivots.</li>
+                </ul>
+            </div>
+
+            <!-- Job Element 5 -->
+            <div class="relative group">
+                <div class="absolute -left-[31px] sm:-left-[47px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-violet-400 group-hover:bg-violet-400 transition-colors duration-300"></div>
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <div>
+                        <h3 class="heading-font text-xl font-bold text-white group-hover:text-violet-400 transition-colors">Technology Solutions & Data Associate</h3>
+                        <p class="text-teal-400 font-medium text-sm">Denis Osigbemeh IT Centers | Benin City, Nigeria</p>
+                    </div>
+                    <span class="text-xs font-mono text-slate-500 bg-slate-900/60 border border-slate-800 px-2 py-1 rounded-md self-start sm:self-center">Feb 2018 - Feb 2021[cite: 2]</span>
+                </div>
+                <ul class="space-y-2 text-xs sm:text-sm text-slate-400 leading-relaxed list-disc list-inside">
+                    <li class="pl-1">Maintained local server database integrity and managed routine data entry validation tasks, minimizing recording discrepancies[cite: 2].</li>
+                    <li class="pl-1">Conducted exploratory queries on system traffic data, diagnosing hardware latency issues to guide infrastructure upgrades[cite: 2].</li>
+                    <li class="pl-1">Generated daily and weekly capacity reports using advanced spreadsheet formulas, presenting localized operational metrics directly to senior management[cite: 2].</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Verified Awards & Professional Honors -->
+    <section id="awards" class="py-24 bg-gradient-to-r from-slate-950 via-[#0a0b12] to-slate-950 border-y border-slate-900 px-6 reveal-element">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 text-2xl mx-auto mb-6">
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+            <span class="text-xs font-mono tracking-widest text-amber-400 font-bold uppercase">Ecosystem Recognition Baseline</span>
+            <h2 class="heading-font text-3xl sm:text-5xl font-black text-white tracking-tight mt-2">Titans of Tech Awards</h2>
+            <p class="text-teal-400 font-semibold mt-1 heading-font">Data Driven Innovation of the Year (July 22, 2022)[cite: 1]</p>
+            
+            <div class="mt-8 p-6 sm:p-8 rounded-2xl bg-slate-900/40 border border-slate-800 text-left relative overflow-hidden backdrop-blur-md">
+                <div class="absolute top-0 right-0 p-4 text-slate-800 text-7xl font-black select-none pointer-events-none opacity-20">TOTA</div>
+                <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                    As documented in verified organizational award registries (*verbatim asset reference: <span class="text-white font-semibold">WhatsApp Image 2026-06-30 at 4.52.06 PM.jpeg</span>*), Rosemary Rashidatu Ohenlen was honored at the prominent Titans of Tech industry gala night[cite: 1]. The award recognizes outstanding leadership in compiling analytical frameworks designed to resolve data discrepancies and optimize regional data workflows[cite: 1].
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Technical Deep-Dive Case Studies Layout -->
+    <section id="projects" class="py-24 px-6 max-w-7xl mx-auto reveal-element">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="heading-font text-3xl sm:text-4xl font-bold text-white tracking-tight">Analytical Case Studies</h2>
+            <p class="text-slate-400 mt-3 text-sm sm:text-base">Documented structural portfolio components indicating advanced problem-solving capabilities[cite: 2].</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="rounded-2xl bg-slate-900/30 border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-cyan-500/20 transition-all duration-300 group">
+                <div class="p-6 sm:p-8">
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="text-xs font-mono text-cyan-400 px-2.5 py-1 bg-cyan-500/10 rounded-md border border-cyan-500/20">Operational Analytics</span>
+                        <div class="text-slate-600 group-hover:text-cyan-400 transition-colors"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                    </div>
+                    <h3 class="heading-font text-xl font-bold text-white mb-3">E-Commerce Funnel Optimization & Behavioral Analytics Engine</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
+                        An integrated script framework designed to isolate drop-off rates across transactional web application nodes. Aggregates behavioral metadata to forecast user retention barriers[cite: 2].
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">Python (Pandas)</span>
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">SQL Server</span>
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">Google Looker Studio</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="rounded-2xl bg-slate-900/30 border border-slate-800/80 overflow-hidden flex flex-col justify-between hover:border-teal-500/20 transition-all duration-300 group">
+                <div class="p-6 sm:p-8">
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="text-xs font-mono text-teal-400 px-2.5 py-1 bg-teal-500/10 rounded-md border border-teal-500/20">Resource Intelligence</span>
+                        <div class="text-slate-600 group-hover:text-teal-400 transition-colors"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                    </div>
+                    <h3 class="heading-font text-xl font-bold text-white mb-3">Infrastructure Lifecycle & Predictive Asset Optimization Matrix</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6">
+                        Formulated customized relational structural tables and advanced logical algorithms to cross-evaluate heavy engineering equipment schedules against milestone progress parameters[cite: 2].
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">PostgreSQL</span>
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">Advanced Excel</span>
+                        <span class="text-[11px] font-mono bg-slate-950 px-2.5 py-1 rounded text-slate-400">Power BI Matrices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section : Education Framework -->
+    <section id="education" class="py-24 bg-slate-950/40 border-t border-slate-900 px-6 reveal-element">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-3xl font-bold text-white tracking-tight">Academic History</h2>
+                <p class="text-slate-400 mt-2 text-sm">International validation credentials baseline[cite: 2].</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="p-6 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm relative">
+                    <span class="absolute top-4 right-4 text-slate-700 text-3xl"><i class="fa-solid fa-graduation-cap"></i></span>
+                    <span class="text-xs font-mono text-cyan-400 font-semibold uppercase">Postgraduate Degree</span>
+                    <h3 class="heading-font text-lg font-bold text-white mt-1">MSc Project Management</h3>
+                    <p class="text-slate-400 text-sm mt-1">University of East London, United Kingdom</p>
+                    <p class="text-slate-500 font-mono text-xs mt-3">Conferred: 2023[cite: 2]</p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-900/40 border border-slate-800/60 backdrop-blur-sm relative">
+                    <span class="absolute top-4 right-4 text-slate-700 text-3xl"><i class="fa-solid fa-book-open"></i></span>
+                    <span class="text-xs font-mono text-teal-400 font-semibold uppercase">Undergraduate Degree</span>
+                    <h3 class="heading-font text-lg font-bold text-white mt-1">BA Education (English)</h3>
+                    <p class="text-slate-400 text-sm mt-1">University of Calabar, Nigeria</p>
+                    <p class="text-slate-500 font-mono text-xs mt-3">Conferred: 2011[cite: 2]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premium Site Minimalist Footer Layer -->
+     
+    <footer class="py-12 border-t border-slate-900 text-center text-xs text-slate-500 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>© 2026 Rosemary Rashidatu Ohenlen. All Rights Asserted Ecosystem Frameworks.</p>
+            <div class="flex items-center gap-6">
+                <a href="mailto:rossyohenlen@gmail.com" class="hover:text-slate-300 transition-colors">Email</a>
+                <a href="#" class="hover:text-slate-300 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-slate-300 transition-colors">Data Portfolio Hub</a>
+            </div>
+        </div>
+    </footer>
